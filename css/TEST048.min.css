@@ -1,0 +1,321 @@
+#TEST048 {
+  position: relative;
+  background-color: #fff;
+  color: #797676 !important;
+  font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, serif !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: 0
+}
+
+#TEST048 img {
+  border-style: none
+}
+
+#TEST048 svg:not(:root) {
+  overflow: hidden
+}
+
+#TEST048 ::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54
+}
+
+#TEST048 ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit
+}
+
+#TEST048 *, #TEST048 *:before, #TEST048 *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+#TEST048 img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle
+}
+
+#TEST048 .f-none {
+  float: none
+}
+
+#TEST048 .align-center {
+  text-align: center
+}
+
+#TEST048 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(17, 17, 17, 0.7);
+  transition: all 0.4s ease
+}
+
+#TEST048 h4 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  color: #2f2c2c;
+  font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, serif
+}
+
+@media (max-width: 800px) {
+  #TEST048 h4 {
+    font-size: 28px
+  }
+}
+
+@media (max-width: 570px) {
+  #TEST048 h4 {
+    font-size: 24px
+  }
+}
+
+@media (max-width: 480px) {
+  #TEST048 h4 {
+    font-size: 20px
+  }
+}
+
+#TEST048 .testimonial-item {
+  position: relative
+}
+
+#TEST048 .author-info-wrap {
+  position: relative;
+  z-index: 20
+}
+
+#TEST048 .author-info-wrap .testimonial-img-author {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 5px
+}
+
+#TEST048 .author-info-wrap .testimonial-img-author.f-none {
+  float: none
+}
+
+#TEST048 .nice-select .list:hover .option:not(:hover) {
+  background-color: transparent !important
+}
+
+#TEST048 .btn-next {
+  position: absolute;
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  display: block;
+  z-index: 10;
+  transition: all .2s ease-in;
+  fill: #e1e1e1;
+  stroke: inherit
+}
+
+#TEST048 .btn-next:hover {
+  fill: #4cc2c0;
+  margin-right: -2px
+}
+
+#TEST048 .btn-next.btn-next-gray {
+  fill: #4a4240
+}
+
+#TEST048 .btn-next.btn-next-gray:hover {
+  fill: #4cc2c0
+}
+
+@media (max-width: 460px) {
+  #TEST048 .btn-next {
+    width: 30px;
+    height: 30px
+  }
+}
+
+#TEST048 .btn-prev {
+  position: absolute;
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  display: block;
+  z-index: 10;
+  transition: all .2s ease-in;
+  fill: #e1e1e1;
+  stroke: inherit
+}
+
+#TEST048 .btn-prev:hover {
+  fill: #4cc2c0;
+  margin-left: -2px
+}
+
+#TEST048 .btn-prev.btn-prev-gray {
+  fill: #4a4240
+}
+
+#TEST048 .btn-prev.btn-prev-gray:hover {
+  fill: #4cc2c0
+}
+
+@media (max-width: 460px) {
+  #TEST048 .btn-prev {
+    width: 30px;
+    height: 30px
+  }
+}
+
+#TEST048 .testimonial-slider-standard {
+  position: relative;
+  z-index: 2
+}
+
+@media (max-width: 600px) {
+  #TEST048 .testimonial-slider-standard {
+    margin-top: 35px
+  }
+}
+
+@media (max-width: 360px) {
+  #TEST048 .testimonial-slider-standard {
+    margin-top: 70px
+  }
+}
+
+#TEST048 .testimonial-slider-standard .testimonial-slider-standard-item .testimonial-item .testimonial-text {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 40px;
+  line-height: 1.3
+}
+
+@media (max-width: 640px) {
+  #TEST048 .testimonial-slider-standard .testimonial-slider-standard-item .testimonial-item .testimonial-text {
+    font-size: 24px
+  }
+}
+
+@media (max-width: 480px) {
+  #TEST048 .testimonial-slider-standard .testimonial-slider-standard-item .testimonial-item .testimonial-text {
+    font-size: 18px
+  }
+}
+
+#TEST048 .testimonial-slider-standard .testimonial-slider-standard-item .testimonial-item .author-info-wrap {
+  position: relative
+}
+
+#TEST048 .testimonial-slider-standard .testimonial-slider-standard-item .testimonial-item .author-info-wrap .testimonial-img-author {
+  border-radius: 100%;
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin-right: 0
+}
+
+#TEST048 .testimonial-slider-standard .testimonial-slider-standard-item .testimonial-item .author-info-wrap .testimonial-img-author img {
+  border-radius: 50%
+}
+
+#TEST048 .testimonial-slider-standard .testimonial-slider-standard-item .testimonial-item .author-info-wrap .author-info .author-name {
+  font-size: 18px;
+  color: #3399ff;
+  margin-bottom: 5px
+}
+
+#TEST048 .testimonial-slider-standard .testimonial-slider-standard-item .testimonial-item .author-info-wrap .author-info .author-company {
+  font-size: 14px;
+  color: #797676
+}
+
+#TEST048 .testimonial-slider-standard .btn-next {
+  right: 95px;
+  bottom: 0
+}
+
+@media (max-width: 980px) {
+  #TEST048 .testimonial-slider-standard .btn-next {
+    right: 5px
+  }
+}
+
+#TEST048 .testimonial-slider-standard .btn-prev {
+  bottom: 0;
+  left: 95px
+}
+
+@media (max-width: 980px) {
+  #TEST048 .testimonial-slider-standard .btn-prev {
+    left: 5px
+  }
+}
+
+/*#TEST048 :before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(47, 44, 44, 0.85);
+  opacity: 0;
+  transition: opacity .3s ease;
+  z-index: -999
+}*/
+
+#TEST048 :focus {
+  outline: 0
+}
+
+#TEST048 .swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 3
+}
+
+#TEST048 .swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -ms-transition-property: -ms-transform;
+  transition-property: transform;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box
+}
+
+#TEST048 .swiper-wrapper {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate(0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0)
+}
+
+#TEST048 .swiper-slide {
+  -webkit-flex-shrink: 0;
+  -ms-flex: 0 0 auto;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative
+}

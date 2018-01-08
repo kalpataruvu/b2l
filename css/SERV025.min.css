@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+#SERV025 {
+  font-family: "Poppins", sans-serif;
+  color: #999;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  background-color: #fff
+}
+
+#SERV025 .poppins {
+  font-family: "Poppins", sans-serif
+}
+
+#SERV025 p {
+  font-weight: 300;
+  color: #999;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 36px
+}
+
+#SERV025 h3 {
+  color: #000;
+  margin: 0 0 15px;
+  font-family: "Playfair Display", sans-serif
+}
+
+#SERV025 a {
+  color: #222222;
+  transition: all ease 500ms;
+  -moz-transition: all ease 500ms;
+  -webkit-transition: all ease 500ms;
+  -ms-transition: all ease 500ms;
+  -o-transition: all ease 500ms
+}
+
+#SERV025 a:hover {
+  text-decoration: none;
+  color: #f23030
+}
+
+#SERV025 a:focus {
+  outline: 0;
+  text-decoration: none
+}
+
+#SERV025 .comonTitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  font-family: "Poppins", sans-serif
+}
+
+#SERV025 .comonTitle.whites {
+  color: #FFF
+}
+
+#SERV025 .mb100 {
+  margin-bottom: 95px
+}
+
+#SERV025 .ourServicesSec {
+  background: #3399ff;
+  padding: 115px 0
+}
+
+#SERV025 .singleServices {
+  background: #fff;
+  padding: 36px 15px 48px;
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.31) !important;
+  margin: 0 0 30px;
+  transition: all ease-in-out 300ms;
+  -moz-transition: all ease-in-out 300ms;
+  -webkit-transition: all ease-in-out 300ms;
+  -ms-transition: all ease-in-out 300ms;
+  -o-transition: all ease-in-out 300ms
+}
+
+#SERV025 .singleServices:hover {
+  margin-top: -25px !important;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4)!important;
+}
+
+#SERV025 .singleServices img {
+  width: 91px;
+  height: auto;
+  margin-bottom: 38px
+}
+
+#SERV025 .singleServices h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 61px
+}
+
+#SERV025 .ser_details p:last-of-type {
+  margin-bottom: 59px
+}
+
+#SERV025 .sy_btnPl {
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: .8;
+  letter-spacing: 0;
+  color: #0066cc;
+  font-weight: 700
+}
+
+#SERV025 .sy_btnPl:hover {
+  color: #000
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+  #SERV025 .container {
+    width: 840px
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+  #SERV025 .ser_details p {
+    font-size: 16px;
+    line-height: 28px
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  #SERV025 {
+    padding: 0
+  }
+  #SERV025 .singleServices {
+    padding: 36px 10px 48px
+  }
+  #SERV025 .ser_details p {
+    font-size: 16px;
+    line-height: 28px
+  }
+  #SERV025 .ser_details p:last-of-type {
+    margin-bottom: 15px
+  }
+  #SERV025 .singleServices h3 {
+    margin-bottom: 30px
+  }
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+  #SERV025 {
+    padding: 0
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  #SERV025 .comonTitle {
+    line-height: 25px
+  }
+  #SERV025 .comonTitle {
+    letter-spacing: 2px
+  }
+}
